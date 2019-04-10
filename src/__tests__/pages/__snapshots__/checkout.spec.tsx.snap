@@ -1,0 +1,167 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PAGES: Checkout renders w/o exceptions 1`] = `
+<div
+  className="Checkout"
+>
+  <header
+    className="Header"
+  >
+    <img
+      alt="nodejs"
+      className="Header__image"
+      src="http://event-banner-url"
+    />
+    <h1
+      className="Header__title"
+    >
+      Event
+       &gt; Checkout
+    </h1>
+  </header>
+  <div
+    className="PersonalInfoForm"
+  >
+    <h3>
+      Confirm personal information
+    </h3>
+    <form
+      onSubmit={[Function]}
+    >
+      <section>
+        <div
+          className="row"
+        >
+          <div
+            className="form-group col-6"
+          >
+            <label>
+              <span>
+                First Name 
+                <i
+                  className="text-danger"
+                >
+                  *
+                </i>
+              </span>
+              <input
+                autoComplete="firstName"
+                className="form-control"
+                name="firstName"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                type="text"
+                value=""
+              />
+            </label>
+          </div>
+          <div
+            className="form-group col-6"
+          >
+            <label>
+              <span>
+                Last Name 
+                <i
+                  className="text-danger"
+                >
+                  *
+                </i>
+              </span>
+              <input
+                autoComplete="lastName"
+                className="form-control"
+                name="lastName"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                type="text"
+                value=""
+              />
+            </label>
+          </div>
+        </div>
+        <div
+          className="row"
+        >
+          <div
+            className="form-group col-6"
+          >
+            <label>
+              <span>
+                Email 
+                <i
+                  className="text-danger"
+                >
+                  *
+                </i>
+              </span>
+              <input
+                autoComplete="email"
+                className="form-control"
+                name="email"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                type="email"
+                value=""
+              />
+            </label>
+          </div>
+          <div
+            className="form-group col-6"
+          >
+            <label>
+              <span>
+                Phone Number 
+                <i
+                  className="text-danger"
+                >
+                  *
+                </i>
+              </span>
+              <input
+                autoComplete="tel"
+                className="form-control"
+                name="phone"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                type="text"
+                value=""
+              />
+            </label>
+          </div>
+        </div>
+        <div>
+          <p>
+            Event
+          </p>
+          <p>
+            Invalid DateTime
+          </p>
+          <h5>
+            Your tickets
+          </h5>
+        </div>
+        <footer>
+          <button
+            className="btn btn-default"
+            onClick={[Function]}
+            type="button"
+          >
+            Back
+          </button>
+          <button
+            className="btn btn-primary"
+            disabled={true}
+            type="submit"
+          >
+            Confirm
+          </button>
+        </footer>
+      </section>
+    </form>
+  </div>
+</div>
+`;

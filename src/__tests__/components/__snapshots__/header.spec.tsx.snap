@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`COMPONENTS: Header renders w/o exceptions 1`] = `
+<header
+  className="Header"
+>
+  <img
+    alt="nodejs"
+    className="Header__image"
+    src="http://banner-image-url"
+  />
+  <h1
+    className="Header__title"
+  >
+    Event name
+  </h1>
+</header>
+`;

@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PAGES: Ticketing renders Loader 1`] = `
+<div>
+  Loading...
+</div>
+`;
+
+exports[`PAGES: Ticketing renders w/o exceptions 1`] = `
+<div
+  className="Ticketing"
+>
+  <header
+    className="Header"
+  >
+    <img
+      alt="nodejs"
+      className="Header__image"
+      src="http://event-banner-url"
+    />
+    <h1
+      className="Header__title"
+    >
+      Event
+    </h1>
+  </header>
+  <section>
+    <p>
+      Invalid DateTime
+    </p>
+    <p>
+      Russia, Saint-Petersburg
+    </p>
+    <footer>
+      <h5>
+        Description
+      </h5>
+      <p>
+        Test Description
+      </p>
+    </footer>
+  </section>
+</div>
+`;

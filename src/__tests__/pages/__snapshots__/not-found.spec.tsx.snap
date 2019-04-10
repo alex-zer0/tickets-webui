@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PAGES: NotFound renders w/o exceptions 1`] = `
+<h1>
+  404 Not Found
+</h1>
+`;

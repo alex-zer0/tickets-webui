@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PAGES: Home renders Error 1`] = `
+<div
+  className="error"
+>
+  <h2>
+    Test Error Message
+  </h2>
+  <p>
+    Please, try again a little bit later
+  </p>
+</div>
+`;
+
+exports[`PAGES: Home renders Loader 1`] = `
+<div
+  className="loader"
+>
+  <h2>
+    Loading...
+  </h2>
+  <p>
+    Wait a second...
+  </p>
+</div>
+`;
+
+exports[`PAGES: Home renders w/o exceptions 1`] = `
+<div
+  className="Home"
+>
+  <ul>
+    <li>
+      <a
+        href="/event"
+        onClick={[Function]}
+      >
+        Event name
+      </a>
+    </li>
+  </ul>
+</div>
+`;
